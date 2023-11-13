@@ -125,7 +125,7 @@ a:hover {
   background-image: url(../img/background-img.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  filter: brightness(150%);
+  filter: contrast(150%);
 }
 
 /* HEADER */
