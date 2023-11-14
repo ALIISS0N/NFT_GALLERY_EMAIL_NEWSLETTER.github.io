@@ -47,7 +47,7 @@ html {
 }
 
 body {
-  width: 100vw;
+  width: 100%;
   height: 100%;
 }
 
@@ -71,6 +71,7 @@ body {
   --color-15: rgba(54, 186, 144, 0.2);
   --color-16: rgba(255, 254, 245, 0.36);
   --color-17: rgba(242, 245, 247, 0.2);
+  --color-18: #0c0d1b;
 }
 
 /* GERAL */
@@ -121,6 +122,9 @@ a:hover {
 
 /* newsletter */
 .newsletter {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
   height: 100%;
   width: 680px;
   background-image: url(../img/background-img.webp);
@@ -136,9 +140,13 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 203px;
+  width: 680px;
+  height: 197px;
   position: relative;
+  background-color: var(--color-18);
+  border: 0;
+  padding: 0;
+  margin: 0;
 }
 .header-logo {
   display: flex;
