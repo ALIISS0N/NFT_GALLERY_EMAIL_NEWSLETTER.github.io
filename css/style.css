@@ -70,6 +70,7 @@ body {
   --color-14: #2c2c47;
   --color-15: rgba(54, 186, 144, 0.2);
   --color-16: rgba(255, 254, 245, 0.36);
+  --color-17: rgba(242, 245, 247, 0.2);
 }
 
 /* GERAL */
@@ -561,6 +562,7 @@ video {
 
 /* FOOTER */
 .footer {
+  position: relative;
   margin-top: 81px;
   width: 553px;
   height: 93px;
@@ -579,6 +581,7 @@ video {
 }
 
 .footer-menu > nav > ul {
+  list-style: none;
   display: flex;
   width: 292px;
   height: 24px;
@@ -610,4 +613,14 @@ video {
   font-weight: 400;
   line-height: 16px;
   color: var(--color-1);
+}
+
+.linha-footer {
+  display: flex;
+  margin: 0 auto;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 545px;
+  border-top: 1px solid var(--color-17);
 }
