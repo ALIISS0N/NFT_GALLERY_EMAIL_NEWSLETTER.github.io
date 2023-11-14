@@ -220,6 +220,7 @@ a:hover {
 .get-text {
   line-height: 24px;
   font-weight: 400;
+  font-size: 1.2em;
   color: var(--color-3);
 }
 .browse-text {
