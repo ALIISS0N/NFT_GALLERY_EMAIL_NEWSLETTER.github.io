@@ -132,6 +132,7 @@ a:hover {
   background-image: url(../img/background-img.webp);
   background-repeat: no-repeat;
   background-size: cover;
+  border-spacing: 0;
 }
 
 /* HEADER */
@@ -147,6 +148,7 @@ a:hover {
   border: 0;
   padding: 0;
   margin: 0;
+  border-spacing: 0;
 }
 .header-logo {
   display: flex;
@@ -204,6 +206,7 @@ a:hover {
   margin-top: 58px;
   height: 277px;
   margin-left: 86px;
+  border-spacing: 0;
 }
 .content-hero-1 > h1 {
   margin-right: 43px;
@@ -236,6 +239,7 @@ a:hover {
   margin-top: 65px;
   height: 366px;
   margin-left: 86px;
+  border-spacing: 0;
 }
 .product .product-text > td > h2 {
   margin-bottom: 22px;
@@ -253,6 +257,7 @@ video {
   margin-top: 74px;
   height: 626px;
   margin-left: 86px;
+  border-spacing: 0;
 }
 .explore-product-container {
   width: 507px;
@@ -382,6 +387,7 @@ video {
   margin-top: 62px;
   height: 535px;
   margin-left: 86px;
+  border-spacing: 0;
 }
 .popular-collections-container {
   width: 507px;
@@ -471,6 +477,7 @@ video {
   margin-top: 81px;
   height: 241px;
   margin-left: 86px;
+  border-spacing: 0;
 }
 .create-and-sell-container-text {
   width: 543px;
@@ -541,6 +548,7 @@ video {
   margin-left: 51px;
   background-color: var(--color-14);
   border-radius: 10px;
+  border-spacing: 0;
 }
 .join-us-and-be-a-acreator-container {
   display: flex;
