@@ -73,6 +73,7 @@ body {
   --color-17: rgba(242, 245, 247, 0.2);
   --color-18: #0c0d1b;
   --color-19: #B1B1AE;
+  --color-20: #782cc4;
 }
 
 /* GERAL */
@@ -105,7 +106,7 @@ p {
 }
 button {
   font-family: var(--poppins);
-  background-color: #782CC4;
+  background-color: var(--color-20);
   color: var(--color-1);
   border: none;
   cursor: pointer;
